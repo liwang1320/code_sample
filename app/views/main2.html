@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>Hello World App</title>
+  <script type="text/javascript" src = "../../bower_components/angular/angular.js"></script>
+  <script type="text/javascript" src="../scripts/app2.js"></script>
+  <script type="text/javascript" src="../scripts/controllers/main2.js"></script>
+  <link rel="stylesheet" type="text/css" href="../styles/main2.css">
+  <link rel="stylesheet" type="text/css" href="../styles/icons.css">
+</head>
+
+<body>
+
+	<div ng-app="inputApp"> 
+
+		<form ng-submit="submit()" ng-controller="ExampleController">
+			Enter text and hit enter:
+			<input type="text" ng-model="text" name="text" />
+			<input type="submit" id="submit" value="Submit" />
+			<pre>list={{list}}</pre>
+
+			
+    	</form>
+
+    	<table id="stateTable">
+    		
+    	</table>
+
+    	
+	</div>
+
+
+</body>
+</html>

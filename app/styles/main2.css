@@ -1,0 +1,23 @@
+
+
+
+#listType {
+	position: relative;
+	padding-top: 48px;
+	padding-left: 30;
+}
+
+.listObject {
+
+	text-align: center;
+	vertical-align: middle;
+	padding-top: 15px
+
+
+}
+
+/*#driver1 {
+	position: absolute;
+	top: 80px;
+	right: 100px;
+}*/
